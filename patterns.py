@@ -106,14 +106,14 @@
 # print('*'.rjust(n))
 
 #q21.-
-# n=5
-# print('*')
-# for i in range(1,n):
-#     print('*'.ljust(i)+'*'.ljust(n-i))
+n=5
+print('*')
+for i in range(1,n):
+    print('*'.ljust(i)+'*'.ljust(n-i))
 
-# for i in range(n,0,-1):
-#     print('*'.ljust(i)+'*'.ljust(n-i))
-# print('*')
+for i in range(n,0,-1):
+    print('*'.ljust(i)+'*'.ljust(n-i))
+print('*')
 
 #q22.-
 # n=5
